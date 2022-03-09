@@ -1,0 +1,153 @@
+
+.productImage1 {
+    height: 300px;
+    width: 220px; 
+    border-top-left-radius: 50px;
+    margin-left: 70px;
+}
+
+.productImage2 {
+    height: 300px;
+    width: 220px; 
+    border-radius: 5px;
+}
+
+.productImage3 {
+    height: 300px;
+    width: 220px; 
+    border-bottom-right-radius: 50px;
+    margin-right: 70px;
+}
+
+.productButton1 {
+    height: 40px;
+    width: 220px;
+    background-color: rgb(0,0,63);
+    color: white;
+    border-style: none;
+    border-radius: 5px; 
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+.productButton1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(104, 185, 223);
+}
+
+.productButton {
+    height: 40px;
+    width: 220px;
+    background-color: rgb(0,0,63);
+    color: white;
+    border-style: none;
+    border-radius: 5px; 
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-top: 10px;
+}
+
+.productButton:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(104, 185, 223);
+}
+
+.shopItem {
+    display:block;
+}
+
+.main{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.logo {
+    margin-top: 30px;
+    height: 90px;
+    width: 90px; 
+    border-radius: 50%;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    background-color: white;
+}
+
+.search {
+    margin-left: 55px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+input {
+
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: white;
+    width: 270px;
+    height: 30px;
+}
+
+.no-outline:focus {
+    outline: none;
+  }
+
+  .title {
+      margin-top: 70px;
+      margin-left: 0px;
+      margin-right: 190px;
+      font-size: 30px;
+  }
+
+.icon {
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 50px;
+    width: 50px;
+}
+
+.icon:hover {
+    height: 55px;
+    width: 55px;
+}
+
+.searchIcon {
+    margin-top: 68px;
+    height: 30px;
+    width: 30px;
+    margin-right: 190px;
+    margin-bottom: 30px;
+}
+
+.searchIcon:hover {
+    height: 35px;
+    width: 35px;
+}
+
+.mainProducts {
+    display: inline-flex;
+}
+
+
