@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Oxygen:wght@300&family=Sansita+Swashed:wght@300&display=swap');
 .productImage1 {
     height: 300px;
     width: 220px; 
@@ -246,4 +247,18 @@ input {
     border-bottom-style: groove;
     border-color:  #ff6961;
     color:  #ff6961;
+}
+
+.mainImg {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.mustHaves {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Londrina Outline', cursive;
+    font-weight: bold;
 }
